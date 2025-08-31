@@ -1,3 +1,4 @@
+import API_BASE from "./config";
 import React, { useState } from "react";
 import axios from "axios";
 import "./App.css"; // import css
@@ -10,7 +11,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/shorten", {
+      const response = await axios.post(`${API_BASE}/shorten`, {
         originalUrl,
         alias,
       });
