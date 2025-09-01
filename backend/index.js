@@ -37,6 +37,8 @@ app.get("/", (req, res) => {
 });
 
 // POST /shorten
+const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+
 app.post("/shorten", async (req, res) => {
   try {
     const { originalUrl, alias } = req.body;
@@ -55,7 +57,7 @@ app.post("/shorten", async (req, res) => {
     await newUrl.save();
 
     res.json({
-      shortUrl: `http://localhost:${PORT}/${shortId}`,
+       shortUrl: `${BASE_URL}/${shortId}`,
     });
   } catch (err) {
     console.error(err);
@@ -82,5 +84,5 @@ app.get("/:shortId", async (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
+  console.log(`✅ Server running on port${PORT}`);
 });
