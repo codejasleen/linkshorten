@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
 });
 
 // POST /shorten
-const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+const BASE_URL = process.env.FRONTEND_BASE || `http://localhost:${PORT}`;
 
 app.post("/shorten", async (req, res) => {
   try {
