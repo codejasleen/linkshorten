@@ -17,6 +17,7 @@ LinkShorten provides a lightweight front-end and backend API to create short, me
 - Basic web UI to create short links
 - Input validation and error handling
 - Simple to extend (persistent storage, analytics, auth)
+- Can add custom alias
 
 ## Tech stack
 
@@ -54,7 +55,7 @@ Create a .env file in the project root (or set environment variables in your hos
 - PORT=3000
 - MONGO_URI=mongodb://localhost:27017/linkshorten   # optional, if using MongoDB
 - BASE_URL=http://localhost:3000
-- JWT_SECRET=your_jwt_secret   # optional, if auth is added
+
 
 ## 🗂️ Project Structure
 
