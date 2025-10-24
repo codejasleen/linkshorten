@@ -61,3 +61,4 @@ Start the app
 - Development (with live reload if available):
   npm run dev
  
+Thank you for checking out LinkShorten — happy shortening!
