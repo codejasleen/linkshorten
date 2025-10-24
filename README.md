@@ -21,8 +21,9 @@ LinkShorten provides a lightweight front-end and backend API to create short, me
 
 ## Tech stack
 
-- React (Node.js/Express or similar backend)
-- HTML, CSS for the frontend UI
+Frontend: React (for an interactive UI)
+Backend: Node.js with Express (for API handling and URL management)
+Database : MongoDB (for storing original and shortened links)
 
 ## Demo Screenshot
 
