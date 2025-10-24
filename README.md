@@ -24,8 +24,8 @@ Tech stack
 - HTML, CSS for the frontend UI
 
 Demo Screenshot
+<img width="1201" height="859" alt="image" src="https://github.com/user-attachments/assets/570ca09f-4864-4a46-993d-a57431d90a5b" />
 
-_Add screenshots or GIFs here (optional)._ 
 
 Getting started
 
