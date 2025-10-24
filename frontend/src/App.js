@@ -43,6 +43,10 @@ function App() {
           <button type="submit">Shorten</button>
         </form>
 
+  <p className="note">
+   Note: The first link might take a few seconds to generate or try multiple clicks and refreshing. Please wait — it’s working!
+</p>
+  
         {shortUrl && (
           <div className="result">
             <p>Your short link:</p>
