@@ -1,6 +1,6 @@
 # LinkShorten
 
-A simple URL shortening service built with JavaScript, HTML, and CSS.
+A simple URL shortening service built with React, HTML, and CSS.
 
 ## Demo
 
@@ -21,7 +21,7 @@ LinkShorten provides a lightweight front-end and backend API to create short, me
 
 ## Tech stack
 
-- JavaScript (Node.js/Express or similar backend)
+- React (Node.js/Express or similar backend)
 - HTML, CSS for the frontend UI
 
 ## Demo Screenshot
