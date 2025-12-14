@@ -44,7 +44,7 @@ function App() {
         </form>
 
   <p className="note">
-   Note: The first link might take a few seconds to generate or try multiple clicks and refreshing. Please wait — it’s working!
+   Note: The first link might take a few seconds to generate
 </p>
   
         {shortUrl && (
